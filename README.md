@@ -56,14 +56,6 @@ Clone the repository:
 git clone https://github.com/DannyG101/week10_compose.git
 cd week10_compose
 
-Create a .env file:
-
-DB_HOST=db
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=mypassword
-DB_NAME=contacts_db
-
 Build and run the project:
 
 docker compose up --build
