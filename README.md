@@ -18,23 +18,25 @@ It manages a list of contacts and persists the database using Docker volumes, me
 
 ## 📂 Project Structure
 
-week10_compose/
-├── .venv/
-├── app/
-│ ├── models/
-│ │ └── contact.py
-│ ├── utils/
-│ │ └── helper_functions.py
-│ ├── data_interactor.py
-│ └── main.py
-├── sql/
-│ └── init.sql
-├── Dockerfile
-├── compose.yaml
-├── requirements.txt
-├── .env
-├── .gitignore
-└── README.md
+## 📂 Project Structure
+
+    week10_compose/
+        .venv/
+        app/
+            models/
+                contact.py
+            utils/
+                helper_functions.py
+            data_interactor.py
+            main.py
+        sql/
+            init.sql
+        Dockerfile
+        compose.yaml
+        requirements.txt
+        .env
+        .gitignore
+        README.md
 
 ## 🧠 Contact Model
 
