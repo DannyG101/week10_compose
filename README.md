@@ -21,14 +21,14 @@ It manages a list of contacts and persists the database using Docker volumes, me
 week10_compose/
 ├── .venv/
 ├── app/
-│   ├── models/
-│   │   └── contact.py
-│   ├── utils/
-│   │   └── helper_functions.py
-│   ├── data_interactor.py
-│   ├── main.py
+│ ├── models/
+│ │ └── contact.py
+│ ├── utils/
+│ │ └── helper_functions.py
+│ ├── data_interactor.py
+│ └── main.py
 ├── sql/
-│   └── init.sql
+│ └── init.sql
 ├── Dockerfile
 ├── compose.yaml
 ├── requirements.txt
